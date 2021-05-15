@@ -1,0 +1,138 @@
+
+
+.crbc-product{
+    margin-bottom: 20px;
+}
+
+.crbc-product-title{
+    margin-top: 0;
+}
+
+.crbc-product-image + .crbc-amount-input,
+.crbc-product-image + .crbc-cart-item-amount,
+.crbc-product-image + h4{
+    margin-top: 10px;
+}
+
+.crbc-item-info .crbc-product-image img {
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.crbc-cart-item-amount{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.crbc-cart-item-amount input{
+    width: 25%;
+}
+
+.crbc-add-shipping-button,
+.crbc-cart-plugins-submit-button{
+    float: right;
+    margin-bottom: 20px;
+}
+
+.crbc-shipping-error,
+.cart-plugin-error{
+    display: none;
+}
+
+.crbc-cart-plugins{
+    position: relative;
+    float: left;
+    width: 49%;
+    box-sizing: border-box;
+}
+
+.crbc-cart-final{
+    position: relative;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.crbc-cart-final-left, .crbc-cart-final-right{
+    
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.crbc-cart-final-left{
+    float: left;
+    width: 50%;
+}
+
+.crbc-cart-final-right{
+    float: right;
+}
+
+@media (max-width: 600px) {
+    .crbc-cart-final,
+    .crbc-cart-plugins{
+        float: none;
+        width: 100%;
+    }
+    .crbc-add-shipping-button,
+    .crbc-cart-plugins-submit-button{
+        float: none;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .crbc-cart-final.pull-right, .crbc-cart-final.crbc-pull-right {
+        width: 100%;
+        float: none;
+    }
+    
+    .crbc-item-info .crbc-product-image img {
+        margin-right: 0;
+    }
+    
+    .crbc-cart-item-amount input{
+        width: 15%;
+    }
+    
+    .crbc-cart-item-amount{
+        -ms-transform:  scale( 1 );
+        -webkit-transform:  scale( 1 );
+        -moz-transform:  scale( 1 );
+        transform: scale( 1 );
+    }
+}
+
+.crbc-product-column{
+    
+    max-width: 250px;
+}
+
+@media (max-width: 1000px) {
+    .crbc-cart.table td > div{
+        padding: 0;
+    }
+    
+    .crbc-product-column{
+        max-width: none;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .crbc-cart-controls .crbc-btn{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        float: none;
+    }
+    
+    .crbc-cart-continue{
+        display: none !important;
+    }
+    
+    .crbc-product-column{
+    
+        max-width: none;
+    }
+}

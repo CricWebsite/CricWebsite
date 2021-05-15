@@ -1,0 +1,59 @@
+.crbc-categoriespicker-block {
+    float: left;
+    margin-right: 20px;
+}
+
+.crbc-categoriespicker-image .crbc-category-image{
+    width: 100%;
+    max-width: 400px;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+#crbc-categoriespicker-select-all{
+    vertical-align: text-top;
+}
+
+#crbc-categoriespicker-select-all-button{
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#crbc-categoriespicker-searchbar{
+    float: right;
+}
+
+#crbc-categoriespicker-add-to-categories-button{
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.crbc-categoriespicker-per-page{
+    margin-right: 5px;
+}
+
+.crbc-categoriespicker-form > table{
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    
+    .crbc-categoriespicker-block {
+        float: none;
+        margin-right: 0;
+    }
+    
+    #crbc-categoriespicker-searchbar{
+        
+        margin-top: 20px;
+        float: none;
+    }
+    
+    #crbc-categoriespicker-searchbar input{
+        width: 100px;   
+    }
+
+}
+
+
+

@@ -1,0 +1,100 @@
+
+.crbc-checkout-billing-information input[type=text], 
+.crbc-checkout-billing-information input[type=password],
+.crbc-checkout-billing-information textarea, 
+.crbc-checkout-billing-information .uneditable-input,
+.crbc-checkout-shipping-information input[type=text],
+.crbc-checkout-shipping-information input[type=password],
+.crbc-checkout-shipping-information textarea, 
+.crbc-checkout-shipping-information .uneditable-input {
+    width: 90%;
+    outline: none;
+}
+
+
+
+.crbc-checkout-billing-information select,
+.crbc-checkout-shipping-information select{
+    width: 100%;
+    outline: none;
+}
+
+.crbc-checkout-error{
+    color: #b94a48;
+}
+
+.crbc-checkout-login-header{
+    display: none;
+}
+
+.crbc-shipping-error,
+.cart-plugin-error{
+    display: none;
+}
+
+.crbc-checkout-single-page > ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.crbc-checkout-single-page ul > li > .crbc-row{
+    display: none;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.crbc-checkout-single-page ul > li:first-child > .crbc-row{
+    display: block;
+}
+
+
+.crbc-checkout-single-page .nav > li > a:hover, 
+.crbc-checkout-single-page .nav > li > a {
+    text-decoration: none;
+    border: 1px solid #eee;
+}
+
+.crbc-registered-partial, 
+.crbc-registration-error-wrap,
+.crbc-payment-error{
+    display: none;
+}
+
+.crbc-control-label{
+    font-size: 1.2em;
+}
+
+
+.crbc-cart-final{
+    position: relative;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.crbc-cart-final-left, .crbc-cart-final-right{
+    
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.crbc-cart-final-left{
+    float: left;
+    width: 50%;
+}
+
+.crbc-cart-final-right{
+    float: right;
+}
+
+@media (max-width: 600px) {
+    .crbc-cart-final{
+        float: none;
+        width: 100%;
+    }
+}
+
+.crbc-item-info h4{
+    margin-top: 0;
+}
