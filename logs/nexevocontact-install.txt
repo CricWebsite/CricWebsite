@@ -1,0 +1,47 @@
+2021-05-13 11:52:34 [installscript] Running install on: WINNT | Apache/2.4.46 (Win64) PHP/7.3.21 | php 7.3.21 | safe_mode: 0 | interface: apache2handler
+2021-05-13 11:52:34 [installscript] Found 3 chained extensions.
+2021-05-13 11:52:34 [installscript] Installing LIBRARY... [SUCCESS]
+2021-05-13 11:52:34 [installscript] Installing MODULE... [SUCCESS]
+2021-05-13 11:52:34 [installscript] Installing PLUGIN... [SUCCESS]
+2021-05-13 11:52:34 [installscript] Determining correct file permissions...  [100666]
+2021-05-13 11:52:34 [installscript] setting permissions for [C:\wamp64\www\JOOMLA\components\com_nexevocontact\lib/functions.php]... [1]
+2021-05-13 11:52:34 [installscript] Determining correct directory permissions...  [40777]
+2021-05-13 11:52:34 [installscript] setting permissions for [C:\wamp64\www\JOOMLA/components]... [1]
+2021-05-13 11:52:34 [installscript] setting permissions for [C:\wamp64\www\JOOMLA/components/com_nexevocontact]... [1]
+2021-05-13 11:52:34 [installscript] setting permissions for [C:\wamp64\www\JOOMLA/components/com_nexevocontact/lib]... [1]
+2021-05-13 11:52:34 [fieldsbuilder] --- Determining if this system is able to query DNS records ---
+2021-05-13 11:52:34 [fieldsbuilder] checkdnsrr function found. Let's see if it works.
+2021-05-13 11:52:34 [fieldsbuilder] testing function [checkdnsrr]... [1]
+2021-05-13 11:52:34 [fieldsbuilder] --- Method choosen to query DNS records is [dns_check] ---
+2021-05-13 11:52:34 [ncaptchaimage] --- Determining if this system is able to draw captcha images ---
+2021-05-13 11:52:34 [ncaptchaimage] gd extension found. Let's see if it works.
+2021-05-13 11:52:34 [ncaptchaimage] GD Version... [bundled (2.1.0 compatible)]
+2021-05-13 11:52:34 [ncaptchaimage] FreeType Support... [1]
+2021-05-13 11:52:34 [ncaptchaimage] FreeType Linkage... [with freetype]
+2021-05-13 11:52:34 [ncaptchaimage] GIF Read Support... [1]
+2021-05-13 11:52:34 [ncaptchaimage] GIF Create Support... [1]
+2021-05-13 11:52:34 [ncaptchaimage] JPEG Support... [1]
+2021-05-13 11:52:34 [ncaptchaimage] PNG Support... [1]
+2021-05-13 11:52:34 [ncaptchaimage] WBMP Support... [1]
+2021-05-13 11:52:34 [ncaptchaimage] XPM Support... [1]
+2021-05-13 11:52:34 [ncaptchaimage] XBM Support... [1]
+2021-05-13 11:52:34 [ncaptchaimage] WebP Support... [1]
+2021-05-13 11:52:34 [ncaptchaimage] BMP Support... [1]
+2021-05-13 11:52:34 [ncaptchaimage] JIS-mapped Japanese Font Support... []
+2021-05-13 11:52:34 [ncaptchaimage] testing function [imagecreate]... [1]
+2021-05-13 11:52:34 [ncaptchaimage] testing function [imagecolorallocate]... [1]
+2021-05-13 11:52:34 [ncaptchaimage] testing function [imagefill]... [1]
+2021-05-13 11:52:34 [ncaptchaimage] testing function [imageline]... [1]
+2021-05-13 11:52:34 [ncaptchaimage] testing function [imagettftext]... [1]
+2021-05-13 11:52:34 [ncaptchaimage] testing function [imagejpeg]... [1]
+2021-05-13 11:52:34 [ncaptchaimage] testing function [imagedestroy]... [1]
+2021-05-13 11:52:34 [ncaptchaimage] --- Method choosen to draw captcha images is [use_gd] ---
+2021-05-13 11:52:34 [nmimetype] --- Determining if this system is able to detect file mime types ---
+2021-05-13 11:52:34 [nmimetype] fileinfo extension found. Let's see if it works.
+2021-05-13 11:52:34 [nmimetype] testing detected mimetype [audio/mpeg; charset=binary] seeking expected string [/^audio\//]... [1]
+2021-05-13 11:52:34 [nmimetype] testing detected mimetype [video/mp4; charset=binary] seeking expected string [/^video\//]... [1]
+2021-05-13 11:52:34 [nmimetype] testing detected mimetype [image/jpeg; charset=binary] seeking expected string [/^image\//]... [1]
+2021-05-13 11:52:34 [nmimetype] testing detected mimetype [application/zip; charset=binary] seeking expected string [/^application\/.*zip/]... [1]
+2021-05-13 11:52:34 [nmimetype] testing detected mimetype [application/pdf; charset=binary] seeking expected string [/^application\/pdf/]... [1]
+2021-05-13 11:52:34 [nmimetype] --- Method choosen to detect file mime types is [use_fileinfo] ---
+2021-05-13 11:52:34 [installscript] Component installation seems successfull.

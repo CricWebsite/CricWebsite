@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <extension type="package" version="3.0" method="upgrade">
+	<updateservers>
+		<server type="extension" name="SmartForms" priority="1">http://smartforms.rednao.com/joomla/update.xml</server>
+	</updateservers>
+	 <name>Smart Forms</name>
+		<creationDate>January 2018</creationDate>
+		<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+		<author>Edgar Rojas</author>
+		<version>1.0</version>
+		<packagename>smartforms</packagename>
+	 <files>
+		<file type="plugin" id="plg_publicajax" group="content">plg_publicajax.zip</file>
+		<file type="plugin" id="plg_loadsmartforms" client="site">plg_loadsmartforms.zip</file>
+		<file type="component" id="com_smartforms">com_smartforms.zip</file>
+	 </files>
+ </extension>

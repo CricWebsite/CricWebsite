@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.7" method="upgrade">
+	<name>Sellacious Package</name>
+	<author>Bhartiy Web Technologies</author>
+	<creationDate>July 25, 2020</creationDate>
+	<packagename>sellacious</packagename>
+	<version>2.0.0-beta3</version>
+	<url>http://www.sellacious.com</url>
+	<packager>Bhartiy Web Technologies</packager>
+	<packagerurl>http://www.sellacious.com</packagerurl>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[
+
+	]]></description>
+	<scriptfile>installer.php</scriptfile>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files folder="extensions">
+		<file type="component" id="com_sellacious">com_sellacious.zip</file>
+	</files>
+	<updateservers>
+		<server type="extension" name="Sellacious Package Updates">http://sellacious.com/release/pkg_sellacious_v1.5.xml</server>
+	</updateservers>
+</extension>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+<name>POWr Contact Form</name>
+<author>POWr.io</author>
+<creationDate>Feb 2020</creationDate>
+<version>4.0</version>
+<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+<authorEmail>info@powr.io</authorEmail>
+<authorUrl>https://www.powr.io</authorUrl>
+<packagename>POWr Contact Form</packagename>
+<packager>POWr.io</packager>
+<packagerurl>https://www.powr.io/</packagerurl>
+<description>Capture contact info with a simple form</description>
+<files folder="packages">
+  <file type="module" client="site">mod_powrcontactform.zip</file>
+  <file type="plugin" group="client">plg_powrshortcodes.zip</file>
+  <file type="plugin" group="client">plg_powricon.zip</file>
+</files>
+<updateservers>
+  <server type="extension" priority="2" name="POWr Contact Form Updates">https://www.powr.io/joomla/update_powrcontactform.xml</server>
+</updateservers>
+</extension>
