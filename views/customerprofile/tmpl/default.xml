@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<metadata>
+    <layout title="COM_BREEZINGCOMMERCE_MENU_ITEM_CUSTOMER_PROFILE">
+        <message>COM_BREEZINGCOMMERCE_CUSTOMER_PROFILE_MESSAGE</message>
+        <config>
+            <fields name="params">
+            </fields>
+        </config>
+    </layout>
+</metadata>

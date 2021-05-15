@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<metadata>
+    <layout title="COM_BREEZINGCOMMERCE_MENU_ITEM_CATEGORIES">
+        <message>COM_BREEZINGCOMMERCE_SELECT_CATEGORIES_MESSAGE</message>
+        <config>
+            <fields name="params" addfieldpath="/administrator/components/com_breezingcommerce/elements">
+                <fieldset name="settings" group="settings" label="COM_BREEZINGCOMMERCE_MENU_ITEM_CATEGORIES_SETTINGS">
+                    <field type="categorypicker" label="COM_BREEZINGCOMMERCE_SELECT_PARENT_CATEGORY" name="parent_category_id" default="1"/>
+                    
+                    <field type="text" label="COM_BREEZINGCOMMERCE_COLUMN_BREAK" name="column_break" default="3"/>
+                    <field
+                    name="display_category_image"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_DISPLAY_CATEGORY_IMAGE"
+                    description="COM_BREEZINGCOMMERCE_DISPLAY_CATEGORY_IMAGE_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                    <field
+                    name="link_category_title"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_LINK_CATEGORY_TITLE"
+                    description="COM_BREEZINGCOMMERCE_LINK_CATEGORY_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                  <field
+                    name="display_category_text"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_DISPLAY_CATEGORY_TEXT"
+                    description="COM_BREEZINGCOMMERCE_DISPLAY_CATEGORY_TEXT_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                  
+                  <field
+                    name="override_default"
+                    type="radio" default="0"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_OVERRIDE_DEFAULT"
+                    description="COM_BREEZINGCOMMERCE_OVERRIDE_DEFAULT_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                  
+                  <field name="hide_details" type="list" default="0" label="COM_BREEZINGCOMMERCE_HIDE_DETAILS" description="COM_BREEZINGCOMMERCE_HIDE_DETAILS_DESC">
+                        <option value="0">COM_BREEZINGCOMMERCE_NO</option>
+                        <option value="1">COM_BREEZINGCOMMERCE_YES</option>
+                    </field>
+                  
+                  <field
+                    name="display_image"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_DISPLAY_IMAGE"
+                    description="COM_BREEZINGCOMMERCE_DISPLAY_IMAGE_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                    <field
+                    name="link_title"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_LINK_TITLE"
+                    description="COM_BREEZINGCOMMERCE_LINK_TITLE_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                  <field
+                    name="display_text"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_DISPLAY_TEXT"
+                    description="COM_BREEZINGCOMMERCE_DISPLAY_TEXT_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                    <field
+                    name="enable_category_description"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_ENABLE_CATEGORY_DESCRIPTION"
+                    description="COM_BREEZINGCOMMERCE_ENABLE_CATEGORY_DESCRIPTION_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                  <field
+                    name="enable_simple_product_view"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_ENABLE_SIMPLE_PRODUCT_VIEW"
+                    description="COM_BREEZINGCOMMERCE_ENABLE_SIMPLE_PRODUCT_VIEW_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                  <field
+                    name="enable_sortby"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_ENABLE_SORTBY"
+                    description="COM_BREEZINGCOMMERCE_ENABLE_SORTBY_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                  <field
+                    name="enable_showperpage"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_ENABLE_SHOWPERPAGE"
+                    description="COM_BREEZINGCOMMERCE_ENABLE_SHOWPERPAGE_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                  <field
+                    name="enable_blockview"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_ENABLE_BLOCKVIEW"
+                    description="COM_BREEZINGCOMMERCE_ENABLE_BLOCKVIEW_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                  <field
+                    name="enable_listview"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_ENABLE_LISTVIEW"
+                    description="COM_BREEZINGCOMMERCE_ENABLE_LISTVIEW_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                    <field
+                    name="enable_dynamic_price"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_ENABLE_DYNAMIC_PRICE"
+                    description="COM_BREEZINGCOMMERCE_ENABLE_DYNAMIC_PRICE_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                  <field
+                    name="enable_ajax_cart_add"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_ENABLE_AJAX_CART_ADD"
+                    description="COM_BREEZINGCOMMERCE_ENABLE_AJAX_CART_ADD_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                </fieldset>
+            </fields>
+        </config>
+    </layout>
+</metadata>

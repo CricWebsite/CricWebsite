@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<metadata>
+    <layout title="COM_BREEZINGCOMMERCE_MENU_ITEM_PRODUCT">
+        <message>COM_BREEZINGCOMMERCE_SELECT_PRODUCT_MESSAGE</message>
+        <config>
+            <fields name="params">
+                <fieldset name="settings" group="settings" label="COM_BREEZINGCOMMERCE_MENU_ITEM_LIST ">
+                    <field type="text" label="COM_BREEZINGCOMMERCE_PRODUCT" name="product_id" default="0"/>
+                    <field type="hidden" name="is_product" default="1"/>
+                    <field
+                    name="enable_dynamic_price"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_ENABLE_DYNAMIC_PRICE"
+                    description="COM_BREEZINGCOMMERCE_ENABLE_DYNAMIC_PRICE_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                  <field
+                    name="enable_ajax_cart_add"
+                    type="radio" default="1"
+                    class="btn-group btn-group-yesno"
+                    label="COM_BREEZINGCOMMERCE_ENABLE_AJAX_CART_ADD"
+                    description="COM_BREEZINGCOMMERCE_ENABLE_AJAX_CART_ADD_DESC">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                  </field>
+                </fieldset>
+            </fields>
+        </config>
+    </layout>
+</metadata>
